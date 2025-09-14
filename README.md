@@ -13,40 +13,78 @@
 Вводить можно только описанные операции и числа иначе программа может выдать ошибку и завершится.
 Если после неправильной операции (деление на ноль, ввод букв и различных символов) нажать на Enter, то у вас текущее число можно будет ввести заново или использовать команду MR для ввода числа из памяти
 ## Пример 1
-available operations: +, -, *, /,%, 1/x, x^2, sqrt, M+, M-, MR
+available operations: +, -, *, /,%, 1/
+
+x, x^2, sqrt, M+, M-, MR
+
 Write: +
+
 Write second number or MR: 3
+
 Result: 3
+
 Write: M+
+
 Memory: 3
+
 Write: 7
+
 Write: +
+
 Write second number or MR: MR
+
 Result: 10
+
 Write:
 ## Пример 2
-available operations: +, -, *, /,%, 1/x, x^2, sqrt, M+, M-, MR
+available operations: +, -, *, /,%, 1/
+
+x, x^2, sqrt, M+, M-, MR
+
 Write: 54
+
 Write: 43
+
 Write: M-
+
 Memory: -43
+
 Write: +
+
 Write second number or MR: 50
+
 Result: 50
+
 Write:
 ## Пример 3
-available operations: +, -, *, /,%, 1/x, x^2, sqrt, M+, M-, MR
+available operations: +, -, *, /,%, 1/
+
+x, x^2, sqrt, M+, M-, MR
+
 Write: 1
+
 Write: /
+
 Write second number or MR: 0
+
 Result: ?
+
 Write: hi
+
 Write: not hi
+
 Write: 5
+
 Write: +
+
 Write second number or MR: 23
+
 Result: 28
+
 Write: 32
+
 Write: +
+
 Write second number or MR: +
+
 Unhandled exception.
